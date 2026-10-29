@@ -219,9 +219,27 @@ This demonstrated the difference between private VPC connectivity and outbound i
 | Public-to-private SSH failure | Missing outbound NACL TCP 22 rule | Allowed SSH to private subnet |
 | Private EC2 internet timeout | No internet egress route | Verified expected private subnet isolation |
 
-## Screenshots
+## Lab Screenshots
 
-Screenshots are stored in the `screenshots/` directory and demonstrate the infrastructure configuration, successful SSH connectivity, HTTP verification, and troubleshooting results.
+The following screenshots document the AWS VPC configuration and troubleshooting exercises.
+
+![Screenshot 1](Screenshot%202026-10-29%20195750.png)
+
+![Screenshot 2](Screenshot%202026-10-29%20195814.png)
+
+![Screenshot 3](Screenshot%202026-10-29%20195854.png)
+
+![Screenshot 4](Screenshot%202026-10-29%20195906.png)
+
+![Screenshot 5](Screenshot%202026-10-29%20195948.png)
+
+![Screenshot 6](Screenshot%202026-10-29%20200011.png)
+
+![Screenshot 7](Screenshot%202026-10-29%20200140.png)
+
+![Screenshot 8](Screenshot%202026-10-29%20200225.png)
+
+![Screenshot 9](Screenshot%202026-10-29%20200307.png)
 
 ## Key Learnings
 
